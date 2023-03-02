@@ -1,4 +1,13 @@
 git 使用步骤
+一、上传
 1.设置本地仓库 git init 
 2.添加上传到暂存区 git add 文件名
-3.
+3.查看暂存区文件 git status
+4. 提交到git仓库 git commi -m "备注”
+ 二、修改后文件内容后
+1.查看暂存区文件 git status
+2.查看修改的内容 git diff 被修改文件名称
+3.重新添加上传传到暂存区 git add 文件名
+4.重新提交到git仓库 git commi -m "备注”
+三、版本退回
+
